@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "963235520473",
+    "firebase_url": "https://apufood-bc4bb.firebaseio.com",
+    "project_id": "apufood-bc4bb",
+    "storage_bucket": "apufood-bc4bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963235520473:android:c4319d760facd932",
+        "android_client_info": {
+          "package_name": "com.example.mohammad.apufodd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963235520473-msjbldst0cukh2vvf06epbjt3aoid5qq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mohammad.apufodd",
+            "certificate_hash": "8a290672e5d96ebf87cf4b91ab96e3a2f594866c"
+          }
+        },
+        {
+          "client_id": "963235520473-kt8mbhsl1bfd1s0s8c9dfcushlu7neo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI9H4z5cpoUitZInHbV6CMvl4QkQvZmwI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963235520473-kt8mbhsl1bfd1s0s8c9dfcushlu7neo0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

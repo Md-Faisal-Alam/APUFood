@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mohammad.apufodd">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <permission android:name="com.name.name.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.name.name.permission.C2D_MESSAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="APU Cafeteria "
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="adjustResize">
+
+
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="adjustResize"/>
+
+        <activity
+            android:name=".Register"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustResize"/>
+
+
+
+        <activity
+            android:name=".AdminHomePage" />
+        <activity
+            android:name=".AddNewFood"
+            android:parentActivityName=".AdminHomePage"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".EditFood"
+            android:parentActivityName=".AdminHomePage"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".Recharge"
+            android:parentActivityName=".AdminHomePage"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".DailySaleAdmin"
+            android:parentActivityName=".AdminHomePage"
+            android:windowSoftInputMode="adjustResize"/>
+
+
+
+        <activity
+            android:name=".StudentHomePage" />
+        <activity
+            android:name=".NewOrder"
+            android:parentActivityName=".StudentHomePage"
+            android:windowSoftInputMode="adjustResize"/>
+
+
+        <activity
+            android:name=".OrderDetails"
+            android:parentActivityName=".StudentHomePage" />
+        <activity
+            android:name=".OrderHistory"
+            android:parentActivityName=".StudentHomePage" />
+
+
+        <activity
+            android:name=".ManagerHome" />
+        <activity
+            android:name=".CurrentOrders"
+            android:parentActivityName=".ManagerHome" />
+        <activity
+            android:name=".AllOrders"
+            android:parentActivityName=".ManagerHome" />
+        <activity
+            android:name=".OrderDetailsManager"
+            android:parentActivityName=".ManagerHome" />
+        <activity
+            android:name=".DailySale"
+            android:parentActivityName=".ManagerHome" />
+        <activity
+            android:name=".ScanQr" />
+
+
+        <activity
+            android:name=".ChatStudent"
+            android:parentActivityName=".StudentHomePage"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".ChatList"
+            android:parentActivityName=".ManagerHome"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".ChatManager"
+            android:parentActivityName=".ChatList"
+            android:windowSoftInputMode="adjustResize"></activity>
+
+
+
+    </application>
+
+</manifest>
